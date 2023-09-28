@@ -1,0 +1,13 @@
+nav{
+  display: flex;
+  flex-direction: row;
+  background: #f1bfbf;
+  height: 80px;
+  width: 100vw;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-between;
+}

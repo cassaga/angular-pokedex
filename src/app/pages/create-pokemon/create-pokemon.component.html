@@ -1,0 +1,22 @@
+<form [formGroup]="pokemonForm" (ngSubmit)="onSubmit()">
+  <label for="name">Nom:</label>
+  <input id="name" formControlName="name" required>
+  <div *ngIf="pokemonForm.controls.name.invalid && pokemonForm.controls.name.touched">
+    Le nom est requis.
+  </div>
+
+  <label for="imageUrl">URL de l'image:</label>
+  <input id="imageUrl" formControlName="imageUrl" required>
+  <div *ngIf="pokemonForm.controls.imageUrl.invalid && pokemonForm.controls.imageUrl.touched">
+    L'URL de l'image est requise.
+  </div>
+
+  <label for="description">Description:</label>
+  <textarea id="description" formControlName="description" required></textarea>
+  <div *ngIf="pokemonForm.controls.description.invalid && pokemonForm.controls.description.touched">
+    La description est requise.
+  </div>
+
+  <button type="submit" [disabled]="pokemonForm.invalid">Ajouter</button>
+</form>
+
