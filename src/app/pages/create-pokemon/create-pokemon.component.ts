@@ -7,6 +7,7 @@ import { Pokemon } from '../../shared/pokemon.model';
 @Component({
   selector: 'app-create-pokemon',
   templateUrl: './create-pokemon.component.html',
+  styleUrls: ['./create-pokemon.component.css']
 })
 export class CreatePokemonPageComponent {
 

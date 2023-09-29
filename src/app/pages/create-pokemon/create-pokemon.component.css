@@ -1,0 +1,45 @@
+.form-content{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  padding: 50px;
+  border: solid 3px blue;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  background: #efef52;
+}
+
+form{
+  display: flex;
+justify-content: space-between;
+  flex-direction: column;
+}
+
+input,label, button{
+  margin-bottom: 1rem;
+  font-family: 'Press Start 2P', cursive;
+}
+
+button{
+  height: 40px;
+  border-radius: 8px;
+  background: #2f92ab;
+}
+
+.line{
+  display: flex;
+}
+
+img{
+  height: 400px;
+  margin: 2rem;
+}
+
+

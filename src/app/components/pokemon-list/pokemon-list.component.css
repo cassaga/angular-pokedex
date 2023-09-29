@@ -1,20 +1,40 @@
+.pokemonlist{
+
+  display: flex;
+  align-items: center;
+  justify-content: ;
+  margin-top: 5rem;
+}
+
 img{
   width: 250px;
   height: 250px;
+  margin-bottom: 10px;
 }
 
 .card{
   display: flex;
   flex-direction: column;
-  border: solid 2px black;
+  border: solid 5px #efef52;
   width: 300px;
   margin: 2rem;
   text-align: center;
   border-radius: 12px;
   padding: 4px;
+  height: 350px;
+
 }
 
 ul{
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 100%;
+  justify-content: center;
+}
+
+h3{
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 900;
+  padding-bottom: 10px;
 }

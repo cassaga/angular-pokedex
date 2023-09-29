@@ -1,22 +1,39 @@
-<form [formGroup]="pokemonForm" (ngSubmit)="onSubmit()">
+<div class="form-content">
+<div class="line">
+  <img src="https://i.imgur.com/uHUje.png" alt="">
+    <div class="content">
+
+  <br>
+
+  <form [formGroup]="pokemonForm" (ngSubmit)="onSubmit()">
+  <div class="forms"></div>
   <label for="name">Nom:</label>
   <input id="name" formControlName="name" required>
   <div *ngIf="pokemonForm.controls.name.invalid && pokemonForm.controls.name.touched">
     Le nom est requis.
   </div>
+  <br>
+
 
   <label for="imageUrl">URL de l'image:</label>
   <input id="imageUrl" formControlName="imageUrl" required>
   <div *ngIf="pokemonForm.controls.imageUrl.invalid && pokemonForm.controls.imageUrl.touched">
     L'URL de l'image est requise.
   </div>
+  <br>
 
   <label for="description">Description:</label>
   <textarea id="description" formControlName="description" required></textarea>
   <div *ngIf="pokemonForm.controls.description.invalid && pokemonForm.controls.description.touched">
     La description est requise.
   </div>
+  <br>
+
 
   <button type="submit" [disabled]="pokemonForm.invalid">Ajouter</button>
-</form>
+</form></div>
+  <img src="https://i.seadn.io/gae/mOGJb03UNIWe_7kBFRLwuuviT4NPGCrFXYpBWA3yRY9efhzYBBsgv6IjS1k5-R_2b_oqgnCJyRdWq9Y_zyYH7E93R8pBhPaam9nM?auto=format&dpr=1&w=1000" alt=""><
+</div>
+
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSXJavJNfy7Ts_Qsv4IB31wGjdzlx0Gzdw3w&usqp=CAU" alt="">
 

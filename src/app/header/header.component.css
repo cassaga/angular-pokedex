@@ -1,0 +1,42 @@
+nav{
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  height: 80px;
+  width: 100vw;
+  align-items: center;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 900;
+  font-size: 50px;
+  color: yellow;
+  -webkit-text-stroke: 0.1rem blue;
+  margin-left: 50px;
+}
+
+.links{
+  display: flex;
+  gap: 70px;
+margin-right: 50px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  align-items: center;
+}
+
+.links a{
+  list-style: none;
+  text-decoration: none;
+  /*color: yellow;*/
+  /*-webkit-text-stroke: 0.1rem blue;*/
+  /*font-weight: 900;*/
+  /*font-family: "DejaVu Serif";*/
+}

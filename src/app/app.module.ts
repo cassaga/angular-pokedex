@@ -8,6 +8,7 @@ import { PokemonDetailComponent } from './components/pokemon-detail/pokemon-deta
 import { PokedexPageComponent } from './pages/pokedex/pokedex.component';
 import {CreatePokemonPageComponent} from './pages/create-pokemon/create-pokemon.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import {ReactiveFormsModule} from "@angular/forms";
     PokemonDetailComponent,
     PokedexPageComponent,
     CreatePokemonPageComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,

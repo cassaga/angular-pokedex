@@ -10,7 +10,7 @@ export const POKEMONS: Pokemon[] = [
   },
   {
     name: 'Salamèche',
-    imageUrl: 'https://i.imgur.com/KPVrxlQ.png',
+    imageUrl: 'https://i.redd.it/oxilxqkkev8a1.png',
     description: 'Salamèche est un Pokémon de type feu.'
   },
   {
@@ -23,5 +23,32 @@ export const POKEMONS: Pokemon[] = [
     imageUrl: 'https://i.redd.it/xhtt229lhbj41.jpg',
     description: 'Bulbizarre est un Pokémon de type plante.'
   },
+  {
+    name: 'Bulbizarre',
+    imageUrl: 'https://i.redd.it/xhtt229lhbj41.jpg',
+    description: 'Bulbizarre est un Pokémon de type plante.'
+  },
+  {
+    name: 'Bulbizarre',
+    imageUrl: 'https://i.redd.it/xhtt229lhbj41.jpg',
+    description: 'Bulbizarre est un Pokémon de type plante.'
+  },
+  {
+    name: 'Bulbizarre',
+    imageUrl: 'https://i.redd.it/xhtt229lhbj41.jpg',
+    description: 'Bulbizarre est un Pokémon de type plante.'
+  },
+  {
+    name: 'Bulbizarre',
+    imageUrl: 'https://i.redd.it/xhtt229lhbj41.jpg',
+    description: 'Bulbizarre est un Pokémon de type plante.'
+  },
+
+  {
+    name: 'Bulbizarre',
+    imageUrl: 'https://i.redd.it/xhtt229lhbj41.jpg',
+    description: 'Bulbizarre est un Pokémon de type plante.'
+  },
+
 
 ];
