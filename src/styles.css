@@ -42,6 +42,6 @@ table {
   border-spacing: 0;
 }
 
-* > *{
- border :solid 1px black ! important
-}
+/** > *{*/
+/* border :solid 1px black ! important*/
+/*}*/

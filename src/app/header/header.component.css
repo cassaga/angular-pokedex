@@ -35,8 +35,8 @@ margin-right: 50px;
 .links a{
   list-style: none;
   text-decoration: none;
-  /*color: yellow;*/
-  /*-webkit-text-stroke: 0.1rem blue;*/
-  /*font-weight: 900;*/
-  /*font-family: "DejaVu Serif";*/
 }
+
+img{
+  height: 60px;
+margin-left: 50px}

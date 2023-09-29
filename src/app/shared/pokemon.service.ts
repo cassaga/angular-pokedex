@@ -17,7 +17,7 @@ export class PokedexService {
   }
 
   getData(){
-    // a fix pour le local storage
+    // a fix plus tard  pour gerer  le local storage et garder les pokemons enregistrés
     // let pokemonData = localStorage.getItem("listPokemon")
     // return pokemonData ? JSON.parse(pokemonData) : POKEMONS
     return POKEMONS
