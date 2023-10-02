@@ -7,4 +7,16 @@ import { Pokemon } from '../../shared/pokemon.model';
 })
 export class PokemonDetailComponent {
   @Input() pokemon: Pokemon | null = null;
+
+  showModal: boolean = false;
+
+  openModal(pokemon: Pokemon) {
+    this.pokemon = pokemon;
+    this.showModal = true;
+  }
+
+  closeModal() {
+    this.showModal = false;
+  }
+
 }

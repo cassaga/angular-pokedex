@@ -1,5 +1,8 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
 import { Pokemon } from '../../shared/pokemon.model';
+import {Component, EventEmitter, Input, Output, ViewChild} from '@angular/core';
+
+import {PokemonDetailComponent} from "../pokemon-detail/pokemon-detail.component";
+
 
 @Component({
   selector: 'app-pokemon-list',
@@ -7,10 +10,11 @@ import { Pokemon } from '../../shared/pokemon.model';
   styleUrls: ['./pokemon-list.component.css']
 })
 export class PokemonListComponent {
-  @Input() pokemons: Pokemon[] = [];
+  @ViewChild(PokemonDetailComponent) detailComponent!: PokemonDetailComponent;
   @Output() pokemonSelected = new EventEmitter<Pokemon>();
+  @Input() pokemons: Pokemon[] = [];
 
-  onSelect(pokemon: Pokemon): void {
+  selectPokemon(pokemon: Pokemon): void {
     this.pokemonSelected.emit(pokemon);
   }
 }

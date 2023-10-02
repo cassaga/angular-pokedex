@@ -22,8 +22,8 @@
   </div>
   <br>
 
-  <label for="description">Description:</label>
-  <textarea id="description" formControlName="description" required></textarea>
+  <label  for="description">Description:</label>
+  <textarea class="description-input" id="description" formControlName="description" required></textarea>
   <div *ngIf="pokemonForm.controls.description.invalid && pokemonForm.controls.description.touched">
     La description est requise.
   </div>
