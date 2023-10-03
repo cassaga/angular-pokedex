@@ -1,7 +1,8 @@
 <div *ngIf="showModal" class="modal">
+
   <div class="modal-content">
     <span class="close" (click)="closeModal()">&times;</span>
-    <h2>{{ pokemon?.name}}</h2>
+    <h3>{{ pokemon?.name}}</h3>
     <img [src]="pokemon?.imageUrl" alt="{{ pokemon?.name }}" />
     <p>{{pokemon?.description}}</p>
 

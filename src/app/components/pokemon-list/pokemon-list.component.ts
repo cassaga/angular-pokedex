@@ -14,7 +14,13 @@ export class PokemonListComponent {
   @Output() pokemonSelected = new EventEmitter<Pokemon>();
   @Input() pokemons: Pokemon[] = [];
 
+
   selectPokemon(pokemon: Pokemon): void {
     this.pokemonSelected.emit(pokemon);
+    this.detailComponent.openModal(pokemon);
   }
+
+
+
+
 }
